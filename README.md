@@ -7,7 +7,6 @@ For each `R2_*_CSV_KEY` basename (e.g. `log.csv`), the Parquet object is `**{ste
 
 
 [![anilist-done-planned](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-done-planned.yml/badge.svg)](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-done-planned.yml)
-
 [![anilist-read](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-read.yml/badge.svg)](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-read.yml)
 
 ## Setup
