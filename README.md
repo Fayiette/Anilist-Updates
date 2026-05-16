@@ -4,6 +4,12 @@ Scripts sync **CSV + Parquet** pairs with **Cloudflare R2** using the same `R2_P
 
 For each `R2_*_CSV_KEY` basename (e.g. `log.csv`), the Parquet object is `**{stem}.parquet`** (e.g. `log.parquet`) under the same `R2_PREFIX`. Upload order matches BDO: **parquet first, then CSV** per dataset.
 
+
+
+[![anilist-done-planned](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-done-planned.yml/badge.svg)](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-done-planned.yml)
+
+[![anilist-read](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-read.yml/badge.svg)](https://github.com/Fayiette/Anilist-Updates/actions/workflows/anilist-read.yml)
+
 ## Setup
 
 ```bash
