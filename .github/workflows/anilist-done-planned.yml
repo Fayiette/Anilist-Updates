@@ -33,14 +33,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run anilist_done-planned_log.py
-        env:
-          R2_PREFIX: Anilist
-          R2_DONE_PLANNED_CSV_KEY: anilist_done-planned_log.csv
-          ANILIST_USERNAME: ${{ secrets.ANILIST_USERNAME }}
-          R2_BUCKET: ${{ secrets.R2_BUCKET }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}
+
         run: python anilist_done-planned_log.py
